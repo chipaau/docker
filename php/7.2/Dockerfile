@@ -32,7 +32,7 @@ RUN LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php; \
                       php7.2-sqlite \
                       php7.2-zip \
                       php7.2-dev \
-                      php-xdebug
+                      php7.2-xdebug
 
 RUN echo "error_reporting = E_ALL" >> /etc/php/7.2/cli/conf.d/20-xdebug.ini; \
     echo "display_startup_errors = On" >> /etc/php/7.2/cli/conf.d/20-xdebug.ini; \
