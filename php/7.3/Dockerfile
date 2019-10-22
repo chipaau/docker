@@ -17,7 +17,7 @@ RUN LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php; \
                       libfreetype6-dev \
                       libpng-dev \
                       libldap2-dev \
-                      php-mysql \
+                      mysql-client \
                       php-gd \
                       php-curl \
                       php-mbstring \
